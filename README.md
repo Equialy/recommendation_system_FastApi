@@ -56,7 +56,8 @@ uvicorn src.main:app --reload
 Генерация рекомендаций для пользователя
 Отправьте POST-запрос на /recommendations/generate_recommendations с ID пользователя:
 
-```curl -X POST "http://127.0.0.1:8000/recommendations/generate_recommendations?user_id=<USER_ID>"
+```
+curl -X POST "http://127.0.0.1:8000/recommendations/generate_recommendations?user_id=<USER_ID>"
 ```
 
 API Эндпоинты
